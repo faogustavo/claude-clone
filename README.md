@@ -37,9 +37,19 @@ This project uses:
 ./gradlew test
 ```
 
+## Prompts
+
+This was fully build using AI models and IDE Agents. The logos were generated using the Claude web UI.
+Everything else was using the Claude Sonnet model in Junie.
+
 ## Notes
 
-- General notes about the project evolution
+- The agent does not work well at all with Compose for plugins;
+  - It does not find the methods from jewel;
+  - It tends to add Material;
+  - It does not know best practices for Compose and Kotlin, often doing "basic" code instead of using existing functions;
+  - Unfortunately, Context7 does not have Jewel indexed;
+  - It often add too many "view groups" (wrap the content a row inside, then inside a box then, use a row again)
 
 ## License
 

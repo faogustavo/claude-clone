@@ -19,7 +19,7 @@ class ClaudeCloneToolWindowFactory :
     ) {
         toolWindow.addComposeTab("Claude Clone") {
             ClaudeCloneTheme {
-                ClaudeClone()
+                ClaudeClone(project)
             }
         }
     }
