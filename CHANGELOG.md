@@ -1,7 +1,9 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
-
-# IntelliJ Platform Plugin Template Changelog
+# Claude Clone Changelog
 
 ## [Unreleased]
 
-TODO
+## [0.1.0] - 2025-11-28
+
+### Added
+- Initial release
+- Basic plugin structure with Compose UI support

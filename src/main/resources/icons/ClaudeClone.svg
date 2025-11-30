@@ -1,0 +1,51 @@
+<svg viewBox="0 0 110 80" xmlns="http://www.w3.org/2000/svg">
+    <!-- Classic Space Invaders alien (medium type) -->
+    <g fill="#c6613f">
+        <!-- Top antennae -->
+        <rect x="20" y="0" width="10" height="10"/>
+        <rect x="80" y="0" width="10" height="10"/>
+
+        <!-- Head top row -->
+        <rect x="30" y="10" width="10" height="10"/>
+        <rect x="40" y="10" width="10" height="10"/>
+        <rect x="50" y="10" width="10" height="10"/>
+        <rect x="60" y="10" width="10" height="10"/>
+        <rect x="70" y="10" width="10" height="10"/>
+
+        <!-- Second row -->
+        <rect x="20" y="20" width="10" height="10"/>
+        <rect x="30" y="20" width="10" height="10"/>
+        <rect x="40" y="20" width="10" height="10"/>
+        <rect x="50" y="20" width="10" height="10"/>
+        <rect x="60" y="20" width="10" height="10"/>
+        <rect x="70" y="20" width="10" height="10"/>
+        <rect x="80" y="20" width="10" height="10"/>
+
+        <!-- Third row (body with gap) -->
+        <rect x="20" y="30" width="10" height="10"/>
+        <rect x="30" y="30" width="10" height="10"/>
+        <rect x="40" y="30" width="10" height="10"/>
+        <rect x="50" y="30" width="10" height="10"/>
+        <rect x="60" y="30" width="10" height="10"/>
+        <rect x="70" y="30" width="10" height="10"/>
+        <rect x="80" y="30" width="10" height="10"/>
+
+        <!-- Fourth row (eyes and body) -->
+        <rect x="20" y="40" width="10" height="10"/>
+        <rect x="30" y="40" width="10" height="10"/>
+        <rect x="70" y="40" width="10" height="10"/>
+        <rect x="80" y="40" width="10" height="10"/>
+
+        <!-- Bottom tentacles -->
+        <rect x="10" y="50" width="10" height="10"/>
+        <rect x="30" y="50" width="10" height="10"/>
+        <rect x="40" y="50" width="10" height="10"/>
+        <rect x="60" y="50" width="10" height="10"/>
+        <rect x="70" y="50" width="10" height="10"/>
+        <rect x="90" y="50" width="10" height="10"/>
+
+        <!-- Bottom extensions -->
+        <rect x="20" y="60" width="10" height="10"/>
+        <rect x="80" y="60" width="10" height="10"/>
+    </g>
+</svg>

@@ -1,17 +1,17 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.compose.template</id>
-    <name>Compose Template Example</name>
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <id>com.faogustavo.claudeclone</id>
+    <name>Claude Clone</name>
+    <vendor url="https://github.com/faogustavo/claude-clone">faogustavo</vendor>
 
     <dependencies>
         <module name="intellij.platform.compose"/>
     </dependencies>
 
-    <resource-bundle>messages.ComposeTemplateBundle</resource-bundle>
+    <resource-bundle>messages.ClaudeCloneBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.ComposeSamplesToolWindowFactory"
-                    icon="org.jetbrains.plugins.template.ComposeIcons.ComposeToolWindow"
-                    id="ComposeSamples"/>
+        <toolWindow factoryClass="com.faogustavo.claudeclone.toolWindow.ClaudeCloneToolWindowFactory"
+                    icon="com.faogustavo.claudeclone.ClaudeCloneIcons.ToolWindow"
+                    id="ClaudeClone"/>
     </extensions>
 </idea-plugin>
